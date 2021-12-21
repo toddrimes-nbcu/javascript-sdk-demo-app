@@ -30,6 +30,8 @@ async function main() {
       'sorting_enabled',
       userID,
     );
+
+    console.log('sorting_enabled is ' + isSortingEnabled + ' for userID ' + userID);
     
     // display feature if enabled
     if (isSortingEnabled) {

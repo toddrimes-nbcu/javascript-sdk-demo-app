@@ -5,6 +5,7 @@ const CLIENT_DIR = path.join(__dirname, '/src');
 
 module.exports = {
   context: CLIENT_DIR,
+  mode: 'development',
 
   entry: './js/index',
 
